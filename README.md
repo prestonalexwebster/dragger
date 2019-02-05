@@ -1,4 +1,4 @@
-#API
+# API
 
 - target(targetElement: Element) - sets target element
 - dragStart(handler: (event: Event, state: any) => any) - sets dragStart handler
@@ -15,7 +15,7 @@ recommended, if reassigning params is necessary, it's better to stop dragger bef
 listen method after it. Each drag handler receives state as last argument and it's return value is used
 as nextState value. 
 
-#Example:
+# Example:
 
 ```
 
